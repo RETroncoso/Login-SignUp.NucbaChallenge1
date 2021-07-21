@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    font-family: 'Merriweather', serif;
+    margin: auto;
+    background: rgb(21,33,92);
+    background: linear-gradient(144deg, rgba(21,33,92,1) 0%, rgba(47,149,78,1) 100%);
+    text-align: center;
+}
+
+.wrapper {
+    max-width: 1000px;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    max-width: 40%;
+    border-radius: 10%;
+}
+
+.datos__lista {
+    list-style: none;
+    padding: 15px;
+    margin: 20px;
+    border: none;
+}
+
+img {
+    width: 150px;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: none;
+}
+
+li {
+    margin: 20px;
+}
+
+.nota {
+    display: flex;
+    font-size: 0.75rem;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    margin: 5px;
+    padding: 5px;
+    align-items: flex-start;
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: peru
+}
+
+a:hover {
+    background: rgba(0, 0, 0, 0.6);
+    text-transform: uppercase;
+}
+
+input {
+        background-color: rgba(1, 147, 124, 0.3);
+        border: 0;
+        border-radius: 5px;
+        font-size: 1.25rem;
+    }
+
+button {
+    background: rgb(63,80,163);
+    background: linear-gradient(54deg, rgba(63,80,163,1) 0%, rgba(86,199,120,1) 100%);
+    color: white;
+    margin-bottom: 20px;
+    font-size: 1.4rem;
+    border: 0;
+    border-radius: 10px;
+}
+
+button:hover {
+    color: peru;
+    border: 1px solid black;
+}
+
+.birthdate {
+    color: rgb(141, 138, 138);
+}
+
+label {
+    font-size: 0.8rem;
+    letter-spacing: 0.75px;
+}
