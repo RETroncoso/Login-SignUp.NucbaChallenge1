@@ -106,3 +106,14 @@ label {
     font-size: 0.8rem;
     letter-spacing: 0.75px;
 }
+
+@media all and (max-width: 850px) {
+    .contenedor {
+        max-width: 338px;
+    }
+
+@media all and (max-width: 500px) {
+    .contenedor {
+        max-width: 85%;
+    }
+}
