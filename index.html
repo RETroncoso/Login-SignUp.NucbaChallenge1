@@ -1,37 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sign Up</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <div class="wrapper">
-        <div class="contenedor">
-            <div class="titulo">
-                <img src="assets/icon.png" alt="icono de la empresa">
-                <!-- <h2>Registrate!</h2> -->
-            </div>
-            <div class="datos">
-                <ul class="datos__lista">
-                   <li><input type="text" name="Name" id="" placeholder="Nombre"> </li>
-                   <li><input type="text" name="Lastname" id="" placeholder="Apellido"> </li>
-                   <li><label for=""><b>Fecha de Nacimiento</b></label> <input type="date" name="" id="" class="birthdate"> </li>
-                   <li><input type="email" name="Mail" id="" placeholder="E-Mail"> </li>
-                   <li><input type="text" name="User" id="" placeholder="Usuario"> </li>
-                   <li><input type="password" name="Password" id="" placeholder="Contraseña"> </li>
-                </ul>
-            </div>
-            <div class="SubmitBtn">
-                <button type="submit">
-                    <b>REGISTRATE!</b>
-                </button>
-            </div>
+      <div class="contenedor">
+        <div class="titulo">
+          <img src="assets/icon.png" alt="icono de la empresa" />
         </div>
-        <div class="nota">
-            <p>Ya estas registrado? <a href="login.html" class="ToLogin">Ingresa a tu cuenta aca!</a> </p>
+        <div class="datos">
+          <ul class="datos__lista">
+            <li>
+              <input
+                type="text"
+                name="Name"
+                id=""
+                placeholder="Nombre y Apellido"
+              />
+            </li>
+            <li>
+              <input
+                type="email"
+                name="Mail"
+                id=""
+                placeholder="Correo Electrónico"
+              />
+            </li>
+            <li>
+              <input type="text" name="User" id="" placeholder="Usuario" />
+            </li>
+            <li>
+              <input
+                type="password"
+                name="Password"
+                id=""
+                placeholder="Contraseña"
+              />
+            </li>
+          </ul>
         </div>
+        <div class="SubmitBtn">
+          <button type="submit">
+            <b>REGISTRATE</b>
+          </button>
+        </div>
+      </div>
+      <div class="nota">
+        <p>
+          ¿Ya estás registrado? -
+          <a href="login.html" class="ToLogin"> Iniciá sesión</a>
+        </p>
+      </div>
     </div>
-</body>
+  </body>
 </html>
